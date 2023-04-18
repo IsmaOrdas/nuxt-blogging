@@ -1,0 +1,46 @@
+@import url(https://fonts.bunny.net/css?family=lora:400,400i,700,700i|roboto:400,400i,500,500i,700,700i,900,900i);
+
+:root {
+    --header-height: 60px;
+    --footer-height: 40px;
+}
+
+:root {
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.app-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: calc(100vh - 120px);
+    padding-top: 3rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
